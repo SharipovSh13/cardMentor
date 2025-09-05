@@ -1,10 +1,47 @@
 body {
   background-color: hsl(47, 88%, 63%);
+  display: grid;
+  place-items: center;
 }
 
 .box-main {
-  width: fit-content;
   background-color: white;
-  display: flex;
-  flex-direction: column;
+  padding: 15px;
+  border-radius: 16px;
+  box-shadow: 3px 3px 0px 4px black;
+  width: min(90vw, 270px);
+}
+.main-img {
+  width: min(95vw, 270px);
+  border-radius: 12px;
+  margin: auto;
+}
+.first-P {
+  padding: 5px;
+  border-radius: 4px;
+  background-color: hsl(47, 88%, 63%);
+
+  width: fit-content;
+  font-family: "Figtree" sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+}
+.two-P {
+  font-family: "Figtree";
+  font-optical-sizing: auto;
+  /* background-color: red; */
+  font-weight: 100;
+  color: hsl(0, 0%, 42%);
+  font-size: 2.6vh;
+}
+.first-Sp {
+  color: hsl(0, 0%, 42%);
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+}
+.title-h1 {
+  font-family: "Figtree", sans-serif;
+  font-weight: 800;
+  font-size: 3.9vh;
 }
