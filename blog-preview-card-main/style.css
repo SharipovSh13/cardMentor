@@ -45,3 +45,23 @@ body {
   font-weight: 800;
   font-size: 3.9vh;
 }
+
+.logo-div {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.logo-div > img {
+  width: 40px;
+}
+.title-h2 {
+  font-family: "Figtree", sans-serif;
+  font-weight: 800;
+  font-size: 3vh;
+}
+.footer-title {
+  margin-top: 25px;
+  font-family: "Figtree";
+  font-weight: 200;
+  font-size: 5vh;
+}
