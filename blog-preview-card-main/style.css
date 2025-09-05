@@ -59,3 +59,9 @@ body {
   font-weight: 800;
   font-size: 3vh;
 }
+.footer-title {
+  margin-top: 25px;
+  font-family: "Figtree";
+  font-weight: 200;
+  font-size: 5vh;
+}
